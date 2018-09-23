@@ -37,11 +37,11 @@ Since we have continous action space, I have used vanilla DDPG algorithm. Both t
 
 * Agent starts to recieve high reward from around 2100 episodes. It took aournd 2200 episode to solve the environment.
 
-### Ideas for Future Work
+### Other experiments
 * When I added dropout in actor network, rewards fluctuated a bit and achieved .5+ at 5400 episodes.
 * By adding 2 hidden layers in actor network and dropouts for both, .5+ was sometimes achieved at 2500 episodes. Not consistent though. Not sure why.
 
-### Ideas to improve the performance of the agent in future
+### Ideas for Future Work
 * We can try parameter space noise rather than noise on action. This seems to give better performance. https://vimeo.com/252185862
 * Prioritized experience buffer would make more sense rather a dumb replay buffer.
 * We can try using different replay buffer for each agent.
