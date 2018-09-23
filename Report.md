@@ -32,8 +32,12 @@ Since we have continous action space, I have used vanilla DDPG algorithm. Both t
 * BATCH_SIZE (minibatch size) = 1024
 * BUFFER_SIZE (replay buffer size) = 1000000
 
-### Other experiments
+### Reward Plot
+![Reward plot](https://github.com/ravilakhotia2006/DDPG/blob/master/score-episode-plot.png)
+
 * Agent starts to recieve high reward from around 2100 episodes. It took aournd 2200 episode to solve the environment.
+
+### Other experiments
 * When I added dropout in actor network, rewards fluctuated a bit and achieved .5+ at 5400 episodes.
 * By adding 2 hidden layers in actor network and dropouts for both, .5+ was sometimes achieved at 2500 episodes. Not consistent though. Not sure why.
 
