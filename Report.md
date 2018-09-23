@@ -47,4 +47,4 @@ Since we have continous action space, I have used vanilla DDPG algorithm. Both t
 * We can try using different replay buffer for each agent.
 * Tuning hyperparameters might increase performance.
 * We can try changing actor/critic network architecture.
-* We can also try adding dropout in network. I did and performance degraded for me. But different network and hyperparameters, dropout could increase performance
+* We can also try adding dropout in network. I did and performance degraded for me. But with different network and hyperparameters, dropout could increase performance
